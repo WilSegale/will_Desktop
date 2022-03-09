@@ -1,11 +1,13 @@
 import random
 import array
-textFile = open("/Users/will/Desktop/GitHub/will_Desktop/rockyou.txt","a")
-MAX_LEN = 4000
 
-while 
-	# maximum length of password needed
-	# this can be changed to suit your password length
+# maximum length of password needed
+# this can be changed to suit your password length
+textFile = open("/Users/will/Desktop/GitHub/will_Desktop/rockyou.txt","a")
+
+leng = input("how long do you want your password to be:")
+while True:
+	MAX_LEN = leng
 
 	# declare arrays of the character that we need in out password
 	# Represented as chars to enable easy string concatenation
@@ -53,10 +55,11 @@ while
 
 	# traverse the temporary password array and append the chars
 	# to form the password
-
 	password = ""
-
 	for x in temp_pass_list:
 			password = password + x
-		# print out password
+			
+	# print out password
 	print(password,file=textFile)
+
+
