@@ -3,12 +3,10 @@ import array
 
 # maximum length of password needed
 # this can be changed to suit your password length
-textFile = open("/Users/will/Desktop/GitHub/will_Desktop/rockyou.txt","a")
+textFile = open("/Users/will/Desktop/GitHub/will_Desktop/test.txt","a")
+MAX_LEN = 10
 
-leng = int(input("how long do you want your password to be:"))
-while True:
-	MAX_LEN = leng
-
+for i in range(1200000):
 	# declare arrays of the character that we need in out password
 	# Represented as chars to enable easy string concatenation
 	DIGITS = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9']
@@ -60,5 +58,5 @@ while True:
 			password = password + x
 			
 	# print out password
-	print("\n",password,file=textFile)
+	print(password,file=textFile)
 

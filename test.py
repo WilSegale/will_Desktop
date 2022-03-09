@@ -5,7 +5,7 @@ import array
 # this can be changed to suit your password length
 textFile = open("/Users/will/Desktop/GitHub/will_Desktop/rockyou.txt","a")
 
-leng = input("how long do you want your password to be:")
+leng = int(input("how long do you want your password to be:"))
 while True:
 	MAX_LEN = leng
 
