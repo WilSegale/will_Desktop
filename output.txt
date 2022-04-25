@@ -39,3 +39,4 @@
 # Hydra v9.3 run at 2022-03-09 08:20:23 on 10.3.37.27 ssh (hydra -l will -P rockyou.txt -v -I -t 64 -o output.txt ssh://10.3.37.27)
 =======
 >>>>>>> parent of 2c41209 (stuff)
+# Hydra v9.3 run at 2022-04-25 08:50:37 on 127.0.0.1 ssh (hydra -l admin -P rockyou.txt -vV -o output.txt -I ssh://127.0.0.1)
